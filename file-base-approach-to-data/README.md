@@ -1,5 +1,5 @@
 # File-Based-Approach-to-Data
-This challenge suggested to me by my professor to understand how file based approach is hard.
+This challenge suggested to me by my professor to understand how file based approach is hard to keep data in it.
 
 ## Challenge Tasks:
 Change those informatin inside the "Inventory.csv":
