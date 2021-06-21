@@ -17,5 +17,5 @@ If you have prefix sum array, you can obtain sum of any range in constant time, 
 
 
 Further information look those videos:
-- https://www.youtube.com/watch?v=pVS3yhlzrlQ&ab_channel=JAVAAID-CodingInterviewPreparationJAVAAID-CodingInterviewPreparation
+- https://www.youtube.com/watch?v=scD312I7kkE&ab_channel=JAVAAID-CodingInterviewPreparation
 - https://www.youtube.com/watch?v=pVS3yhlzrlQ&ab_channel=JAVAAID-CodingInterviewPreparation  
