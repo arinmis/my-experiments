@@ -16,7 +16,7 @@ If you have prefix sum array, you can obtain sum of any range in constant time, 
     // in both cases sum is 24 
 
 ## Example Problem
-Without using prefix sum, you cannot pass [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem) test. Brute force approach will fail when the number of query increase.
+Without using prefix sum, you cannot pass [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem) problem tests on <m>HackerRank</m>. Brute force approach will fail when the number of query increase.
 
 Java code up(Solution.java) above passed all tests.
 
