@@ -12,7 +12,7 @@ public class Players {
         lastIndex = new int[] {1, 1}; // start from center 
     }
 
-    // strategy: picked the highest number available at any given time
+    // strategy: pick the highest number available at any given time
     public void play(char[][] grid, int round) {
         int[] maxIndex = findMaxIndex(grid, lastIndex);
         if (round % 2 == 0) { // evens are player1  
