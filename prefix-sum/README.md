@@ -22,5 +22,5 @@ when the number of query increase.
 Java code up(Solution.java) above passed all tests.
 
 Further information look those videos:
-- https://www.youtube.com/watch?v=pVS3yhlzrlQ&ab_channel=JAVAAID-CodingInterviewPreparationJAVAAID-CodingInterviewPreparation
+- https://www.youtube.com/watch?v=scD312I7kkE&ab_channel=JAVAAID-CodingInterviewPreparation
 - https://www.youtube.com/watch?v=pVS3yhlzrlQ&ab_channel=JAVAAID-CodingInterviewPreparation  
