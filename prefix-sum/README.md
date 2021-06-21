@@ -13,6 +13,9 @@ If you have prefix sum array, you can obtain sum of any range in constant time, 
     // but if we would have prefixArray we don't have to loop 
     sum = prefix[3]
 
-    // in both case sum is 24 
+    // in both cases sum is 24 
 
 
+Further information look those videos:
+- https://www.youtube.com/watch?v=pVS3yhlzrlQ&ab_channel=JAVAAID-CodingInterviewPreparationJAVAAID-CodingInterviewPreparation
+- https://www.youtube.com/watch?v=pVS3yhlzrlQ&ab_channel=JAVAAID-CodingInterviewPreparation  
