@@ -1,6 +1,6 @@
 # Why we need prefix sum algorithm?
 
-If you have prefix sum array, you can obtain sum of any range in constant time, O(1), other wise you have to loop through array to find sum,worst case O(n) for n size array.
+If you have prefix sum array, you can obtain sum of any range in constant time, O(1), other wise you have to loop through array to find sum, worst case is O(n) for n size of array.
 
     normalArray =  [5, 2, 8, 9]
     prefixArray =  [5, 7, 15, 24]
