@@ -11,15 +11,23 @@ import java.util.Stack;
  *
  * @author mustafa arinmis
  * @since 16.12.2020
+ *
  */
 public class ParenthesesChecker {
-    public static void main(String[] args) throws FileNotFoundException{
-        System.out.println("Enter target file directory");
-        File file = new File(new Scanner().next()); //read file directory from console
-        if(!file.exists())
-            throw new FileNotFoundException(file + " is not found");
 
-        System.out.println(isMatched(file));
+    public static void main(String[] args) throws FileNotFoundException{
+        if (args.length != 1) {
+            System.out.println("java ParenthesesChecker <FileName>"); 
+        }
+        File file = new File(args[0]); //read file directory from console
+        if(!file.exists())
+            throw new FileNotFoundException(file + " was not found");
+        
+        if (isMatched(file))
+            System.out.println("Great code, all parentheses were matched");
+        else
+            System.out.println("Error: mismatching is founded");
+
     }
 
     public static boolean isMatched(File file) {
@@ -45,7 +53,8 @@ public class ParenthesesChecker {
             }
         }
 
-        }catch (FileNotFoundException ex) {
+        }
+        catch (FileNotFoundException ex) {
             ex.printStackTrace();
         }
 
@@ -56,7 +65,6 @@ public class ParenthesesChecker {
         }
      }
 
-
      public static int charCount(char chr, String target) {
         // return how many times given char appeared in the target string
          int counter = 0;
@@ -66,4 +74,5 @@ public class ParenthesesChecker {
          }
          return counter;
      }
+
 }
