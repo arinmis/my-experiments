@@ -10,7 +10,7 @@ If you have prefix sum array, you can obtain sum of any range in constant time, 
     for (i=0; i<=3; i++)
         sum = normalArray[i]
 
-    // but if we would have prefixArray we don't have to loop 
+    // but if we had prefixArray we don't have to loop 
     sum = prefix[3]
 
     // in both cases sum is 24 
