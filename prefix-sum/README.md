@@ -5,7 +5,7 @@ If you have prefix sum array, you can obtain sum of any range in constant time, 
     normalArray =  [5, 2, 8, 9]
     prefixArray =  [5, 7, 15, 24]
 
-    // If we asked sum of range [0, 3], array zero indexed and range inclusive, we should do this:
+    // If we were asked to find sum of range [0, 3], array zero indexed and range inclusive, we would do this:
     sum = 0 
     for (i=0; i<=3; i++)
         sum = normalArray[i]
